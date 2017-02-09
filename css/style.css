@@ -1,14 +1,14 @@
 @font-face{
 	font-family: '7seg';
-	src: url('fonts/7seg.ttf') format('truetype');
+	src: url('../css/fonts/7seg.ttf') format('truetype');
 }
 @font-face{
 	font-family: 'Pacifico';
-	src: url('fonts/Pacifico.ttf') format('truetype');
+	src: url('../css/fonts/Pacifico.ttf') format('truetype');
 }
 @font-face{
 	font-family: 'Poetsen';
-	src: url('fonts/Poetsen.otf') format('opentype');
+	src: url('../css/fonts/Poetsen.otf') format('opentype');
 }
 *{
 	box-sizing: border-box;
