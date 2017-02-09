@@ -7,8 +7,8 @@
 	src: url('../res/fonts/Pacifico.ttf') format('truetype');
 }
 @font-face{
-	font-family: 'Poetsen';
-	src: url('../res/fonts/Poetsen.ttf') format('truetype');
+	font-family: 'Komika';
+	src: url('../res/fonts/Komika.ttf') format('truetype');
 }
 *{
 	box-sizing: border-box;
@@ -52,7 +52,7 @@ input[type=button]{
 	background: #AA96DA;
 	padding: 8px 0;
 	font-weight: bold;
-	font-family: 'Komika Title';
+	font-family: 'Komika';
 	color: #fff;
 	outline: none;
 	border: none;
