@@ -93,6 +93,7 @@ input[type=button]:active{
 	bottom: 0;
 	margin: 0 0 8px 0 !important;
 	opacity: 0.075;
+	pointer-events: none;
 }
 
 #total{
