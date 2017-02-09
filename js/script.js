@@ -21,5 +21,11 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function pad(n) {
-	return (n < 1000) ? ('0' + n) : n;
+	if(n < 10){
+		return ('000' + n);
+	} else if(n < 100){
+		return ('00' + n);
+	} else {
+		return (n < 1000) ? ('0' + n) : n;
+	}	
 }
