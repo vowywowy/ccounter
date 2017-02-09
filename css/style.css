@@ -1,0 +1,105 @@
+@font-face{
+	font-family: '7seg';
+	src: url('res/7seg.ttf') format('truetype');
+}
+@font-face{
+	font-family: 'Pacifico';
+	src: url('res/Pacifico.ttf') format('truetype');
+}
+@font-face{
+	font-family: 'Poetsen';
+	src: url('res/Poetsen.otf') format('opentype');
+}
+*{
+	box-sizing: border-box;
+}
+
+html, 
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+
+body{
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	background: #A8D8EA;
+}
+
+#container{
+	display: flex;
+	flex-flow: column;
+}
+
+#display-container{
+	display: flex;
+	flex-flow: column;
+}
+
+#button-container{
+	display: flex;
+}
+
+input[type=button]{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	background: #AA96DA;
+	padding: 1.5rem 0;
+	font-weight: bold;
+	font-family: 'Komika Title';
+	color: #fff;
+	outline: none;
+	border: none;
+	border-radius: 1.5rem;
+	font-size: 3rem;
+}
+
+#button-container input{
+	flex: 1 0 0;
+	margin-top: 0;
+}
+
+#button-container * + *{
+	margin-left: 1.5rem;
+}
+
+#potential,
+#actual{
+	background: #fff;
+	font-family: "7seg";
+	font-size: 10rem;
+	padding: 1.5rem 1.5rem 0 1.5rem;
+	border-radius: 1.5rem;
+}
+
+#total{
+	background: #FCBAD3;
+}
+
+#to-add{
+	background: #FFFFD2;
+}
+
+#total,
+#to-add{
+	display: flex;
+	flex-flow: column;
+	padding: 1.5rem;
+	font-family: 'Pacifico';
+	border-radius: 1.5rem;
+}
+
+#container * + *{
+	margin-top: 1.5rem;
+}
+
+.title{
+	display: flex;
+	font-size: 3rem;
+	align-items: center;
+}
