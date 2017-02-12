@@ -33,6 +33,7 @@ body{
 	display: flex;
 	flex-flow: column;
 	position: relative;
+	margin-bottom: 32px;
 }
 
 #display-container{
